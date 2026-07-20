@@ -19,7 +19,7 @@ body{
     color:beige;
     display:block;
     overflow-x: hidden;
-    padding-top: 80px; /* header offset */
+    padding-top: 80px; 
 }
 
 header{
@@ -30,7 +30,7 @@ header{
     height: 80px;
     padding:1rem 9%;
     justify-content:space-between;
-    align-items:center; /* fixed: was flex-start causing misalignment */
+    align-items:center; 
     z-index:1000;
     background-color: rgba(4, 2, 41, 0.95);
     color:whitesmoke;
@@ -64,7 +64,7 @@ nav a {
     color: aliceblue;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
-    padding: 0.5rem 0; /* fixed: uniform padding */
+    padding: 0.5rem 0; 
     line-height: 1;
     align-items: center;
 }
@@ -85,7 +85,7 @@ section{
 
 .home{
     display:flex;
-    justify-content:space-between; /* fixed: removed invalid "space space-between" */
+    justify-content:space-between; 
     align-items:center;
     gap: 4px;
     background-color:transparent;
@@ -101,7 +101,7 @@ section{
 
 .home-content h1{
     font-size:3rem;
-    font-weight: 600; /* fixed: "font: weight 600" → correct property */
+    font-weight: 600; 
     margin-bottom: 1rem;
 }
 
@@ -260,7 +260,7 @@ section.about {
     margin-bottom:0.8rem;
 }
 
-/* Icon container */
+
 .social-icon {
     width: 55px;
     height: 55px;
@@ -272,14 +272,14 @@ section.about {
     transition: 0.3s ease;
 }
 
-/* Icon image */
+
 .social-icon img {
     width: 55px;
     height: 55px;
     object-fit: contain;
 }
 
-/* HOVER EFFECT — SAME VIBE AS SKILLS */
+
 .social-icon:hover {
     transform: scale(1.2);
     box-shadow: 0 0 40px rgb(113, 14, 219);
@@ -436,7 +436,7 @@ section.skills {
     margin-bottom: 3rem;
 }
 
-/* Grid for 3 cards perfectly spaced */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -525,14 +525,14 @@ section.skills {
 #contact .contact-wrapper {
   display: flex;
   gap: 4rem;
-  flex-wrap: wrap; /* IMPORTANT */
+  flex-wrap: wrap; 
   justify-content: space-between;
   align-items: flex-start;
 }
 
 #contact .contact-form,
 #contact .contact-info {
-  flex: 1 1 400px; /* responsive width */
+  flex: 1 1 400px; 
 }
 
 #contact .contact-form h3,
